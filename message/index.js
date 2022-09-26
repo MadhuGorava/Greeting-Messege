@@ -1,3 +1,3 @@
-const greet = require("./index");
+const greetings = require("../greeting/index");
 
-console.log(`Hello Rahul! ${greet}`);
+module.exports = `Hello Rahul! ${greetings}`;
